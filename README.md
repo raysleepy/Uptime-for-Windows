@@ -21,3 +21,5 @@ dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=
 Copy the resulting binary from, e.g.,
 `bin\Release\net7.0\win-x64\publish\Uptime.exe` to a directory that's in your PATH.
 
+
+Alternatively, it's also easy enough to just create a PowerShell script to invoke the .NET class and do essentially the same.
